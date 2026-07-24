@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Портфолио дизайнера костюма: готовые изделия, эскизы и профессиональная информация."
+    >
+    <meta name="theme-color" content="#f5f4f0">
+    <title>Портфолио дизайнера костюма</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#works">Перейти к работам</a>
+
+    <header class="site-header" data-header>
+      <a class="site-mark" href="#top" aria-label="К началу страницы">Сайт-портфолио</a>
+      <nav class="site-nav" aria-label="Основная навигация">
+        <a href="#about">О себе</a>
+        <a href="#works">Работы</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-name">
+        <img
+          class="hero__image"
+          data-hero-image
+          src="assets/images/designer-portrait.webp"
+          alt="Временный портретный кадр для главного экрана"
+        >
+        <div class="hero__scrim" aria-hidden="true"></div>
+        <div class="hero__content">
+          <p class="hero__role" data-role>Дизайнер костюма</p>
+          <h1 id="hero-name" data-name>Имя Отчество Фамилия</h1>
+        </div>
+      </section>
+
+      <section class="about section-pad" id="about" aria-labelledby="about-title">
+        <h2 id="about-title">О себе</h2>
+        <div class="about__copy" data-about></div>
+        <div class="about__details">
+          <div>
+            <p class="detail-label">Образование</p>
+            <p data-education>Учебное заведение · специальность · год выпуска</p>
+          </div>
+          <div>
+            <p class="detail-label">Направление</p>
+            <p data-specialization>Концепция образа · эскиз · конструирование · декор</p>
+          </div>
+        </div>
+        <a class="about__contact" data-email href="mailto:email@example.com">
+          Написать
+        </a>
+      </section>
+
+      <section class="works" id="works" aria-labelledby="works-title">
+        <div class="works__head section-pad">
+          <h2 id="works-title">Работы</h2>
+        </div>
+        <div class="filters" data-filters role="group" aria-label="Фильтр работ"></div>
+        <div class="project-list" data-projects aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="footer section-pad" id="contact">
+      <a class="footer__email" data-footer-email href="mailto:email@example.com">
+        email@example.com
+      </a>
+      <nav class="socials" data-socials aria-label="Социальные сети"></nav>
+      <div class="footer__bottom">
+        <p>Дизайнер костюма · <span data-year>2026</span></p>
+        <a href="#top">Наверх</a>
+      </div>
+    </footer>
+
+    <dialog class="lightbox" data-lightbox aria-label="Просмотр фотографий проекта">
+      <div class="lightbox__bar">
+        <div>
+          <p class="lightbox__meta" data-lightbox-meta></p>
+          <p class="lightbox__title" data-lightbox-title></p>
+        </div>
+        <button class="lightbox__text-button" type="button" data-lightbox-close>
+          Закрыть
+        </button>
+      </div>
+
+      <div class="lightbox__stage" data-lightbox-stage>
+        <img
+          data-lightbox-image
+          src="assets/images/leshy-01.webp"
+          alt="Костюм Леший, вид спереди в лесу"
+        >
+      </div>
+
+      <div
+        class="lightbox__thumbnails"
+        data-lightbox-thumbnails
+        role="group"
+        aria-label="Фотографии проекта"
+      ></div>
+
+      <div class="lightbox__controls">
+        <button class="lightbox__text-button" type="button" data-lightbox-prev>
+          Назад
+        </button>
+        <p class="lightbox__count" data-lightbox-count aria-live="polite"></p>
+        <div class="lightbox__zoom" role="group" aria-label="Масштаб изображения">
+          <button
+            class="lightbox__zoom-button"
+            type="button"
+            data-lightbox-zoom-out
+            aria-label="Уменьшить изображение"
+          >−</button>
+          <span data-lightbox-zoom-value>100%</span>
+          <button
+            class="lightbox__zoom-button"
+            type="button"
+            data-lightbox-zoom-in
+            aria-label="Увеличить изображение"
+          >+</button>
+        </div>
+        <button class="lightbox__text-button" type="button" data-lightbox-next>
+          Далее
+        </button>
+      </div>
+    </dialog>
+
+    <script src="content.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
