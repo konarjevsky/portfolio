@@ -1,6 +1,6 @@
 :root {
   --ink: #10100f;
-  --paper: #f5f4f0;
+  --paper: #fff;
   --white: #fff;
   --line: rgba(16, 16, 15, 0.2);
   --muted: rgba(16, 16, 15, 0.58);
@@ -75,7 +75,7 @@ img {
   height: 66px;
   padding: 0 var(--gutter);
   border-bottom: 1px solid transparent;
-  background: rgba(245, 244, 240, 0.94);
+  background: #fff;
   backdrop-filter: blur(14px);
   transition: border-color 180ms ease;
 }
@@ -166,7 +166,7 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 38%;
+  object-position: center 10%;
   filter: grayscale(1) contrast(1.04);
 }
 
@@ -309,7 +309,7 @@ img {
   padding: 12px max(var(--gutter), calc((100vw - var(--content)) / 2)) 14px;
   border-top: 0;
   border-bottom: 0;
-  background: rgba(245, 244, 240, 0.95);
+  background: #fff;
   backdrop-filter: blur(12px);
   scrollbar-width: none;
 }
