@@ -119,6 +119,23 @@ window.PORTFOLIO_CONTENT = {
       imagePosition: "center"
     },
     {
+      category: "Готовые изделия",
+      date: "Февраль 2026",
+      sortDate: "2026-02-01",
+      title: "Мужская сорочка «Midnight forest»",
+      description: "Изделие разработано с учётом актуальных модных тенденций. В основе дизайна лежит минимализм, предполагающий отсутствие лишних деталей, принтов и логотипов. Выразительность модели достигается за счёт оригинального кроя, цвета и фактуры материала. Акцентными элементами изделия являются широкие рукава с тремя однонаправленными складками, проходящими от проймы до манжеты, а также дополнительные складки в нижней части рукава, формирующие зауженный силуэт. В качестве основного материала выбран вельвет-стрейч, который придаёт сорочке элегантный внешний вид, обеспечивает комфорт и повышает её износостойкость.",
+      previewCount: 3,
+      images: [
+        { src: "assets/images/midnightforest-01.png", alt: "Мужская сорочка «Midnight forest»" },
+        { src: "assets/images/midnightforest-02.png", alt: "Мужская сорочка «Midnight forest»" },
+        { src: "assets/images/midnightforest-03.png", alt: "Мужская сорочка «Midnight forest»" },
+        { src: "assets/images/midnightforest-04.png", alt: "Мужская сорочка «Midnight forest»" },
+        { src: "assets/images/midnightforest-05.png", alt: "Мужская сорочка «Midnight forest»" }
+      ],
+      imageFit: "cover",
+      imagePosition: "center"
+    },
+    {
       category: "Эскизы костюмов",
       date: "Февраль 2026",
       sortDate: "2026-02-01",
@@ -178,6 +195,21 @@ window.PORTFOLIO_CONTENT = {
       ],
       imageFit: "contain",
       imagePosition: "center"
-    }
+    },
+    {
+      category: "Готовые изделия",
+      date: "Май 2022",
+      sortDate: "2025-05-01",
+      title: "Футболка «The human of tomorrow»",
+      description: "Футболка с принтом в стиле «Ретро футуризм». Изображение было создано на основе эстетики будущего, представляемого в середине 20-го века. ",
+      previewCount: 3,
+      images: [
+        { src: "assets/images/humanoftomorrow-01.png", alt: "Принт «The human of tomorrow»" },
+        { src: "assets/images/humanoftomorrow-02.png", alt: "Футболка «The human of tomorrow»" },
+        { src: "assets/images/humanoftomorrow-03.png", alt: "Мудборд «Ретро футуризм»" }
+      ],
+      imageFit: "cover",
+      imagePosition: "center"
+    },
   ]
 };
